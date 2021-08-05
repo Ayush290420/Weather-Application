@@ -91,6 +91,11 @@ function setBackGroundImage(weather) {
         case 'Haze':
             divImg.style.backgroundImage = "url('https://images.unsplash.com/photo-1534818509150-ac05235effb8?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTd8fGhhemV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')";
             break;
+            
+            case 'Mist':
+            divImg.style.backgroundImage = "url('https://images.unsplash.com/photo-1485236715568-ddc5ee6ca227?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWlzdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')";
+            break;
+            
         default:
             divImg.style.backgroundImage = "url('https://images.unsplash.com/photo-1592210454359-9043f067919b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8d2VhdGhlcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')";
             break;
